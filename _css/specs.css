@@ -1,0 +1,23 @@
+@charset UTF-8
+
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+section#conteudo img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+iframe#frame-spec {
+    width: 430px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
